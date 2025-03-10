@@ -10,9 +10,16 @@
     <div class="wrapper">
         <h1>Калькулятор IMT</h1>
 
-        <input type="number" id="weight">
 
-        <input type="number" id="height">
+        <div class="weight-block">
+            <input type="number" id="weight" required>
+            <label class="label-weight" type="number">Вес</label>
+        </div>
+
+        <div class="height-block">
+            <input type="number" id="height" required>
+            <label class="label-height" type="number">Рост</label>
+        </div>
     
         <button id="button">Считать</button>
     

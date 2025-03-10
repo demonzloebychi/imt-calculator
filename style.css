@@ -44,3 +44,59 @@ details{
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
+
+
+
+
+
+.weight-block{
+    position: relative;
+    margin-bottom: 10px;
+    width: 100%;
+ 
+    .label-weight{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        transition: all .1s ease-in-out;
+        opacity: .7;
+    }
+    #weight {
+        width: 90%;
+    }
+    #weight:focus + .label-weight,
+    #weight:valid + .label-weight {
+        transition: all .1s ease-in-out;
+        transform: translateY(-30px);
+        opacity: 1;
+        font-size: 14px;
+
+    }
+}
+
+
+.height-block {
+    position: relative;
+    width: 100%;
+
+    .label-height {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        transition: all .1s ease-in-out;
+        opacity: .7;
+    }
+
+    #height {
+        width: 90%;
+    }
+
+    #height:focus + .label-height,
+    #height:valid + .label-height {
+        transition: all .1s ease-in-out;
+        transform: translateY(-30px);
+        opacity: 1;
+        font-size: 14px;
+
+    }
+}
