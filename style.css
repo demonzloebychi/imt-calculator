@@ -60,9 +60,12 @@ details{
         left: 10px;
         transition: all .1s ease-in-out;
         opacity: .7;
+        z-index: -1;
     }
     #weight {
         width: 90%;
+        background: transparent;
+
     }
     #weight:focus + .label-weight,
     #weight:valid + .label-weight {
@@ -85,10 +88,12 @@ details{
         left: 10px;
         transition: all .1s ease-in-out;
         opacity: .7;
+        z-index: -1;
     }
 
     #height {
         width: 90%;
+        background: transparent;
     }
 
     #height:focus + .label-height,
