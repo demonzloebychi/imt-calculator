@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ИМТ</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Калькулятор IMT</h1>
+
+        <input type="number" id="weight">
+
+        <input type="number" id="height">
+    
+        <button id="button">Считать</button>
+    
+        <p id="imt-result"></p>
+
+
+
+        <div class="info">
+            <p dir="ltr">Значение показателей ИМТ</p>
+            <ul dir="ltr">
+            <li>Недостаточный вес: ИМТ менее 18,5.</li>
+            <li>Нормальный вес: ИМТ от 18,5 до 24,9.&nbsp;</li>
+            <li>Избыточный вес: ИМТ от 25 до 29,9.&nbsp;</li>
+            <li>Ожирение: ИМТ от 30&nbsp;и выше.</li>
+            </ul>
+
+            <details>
+                <summary>
+                    Больше информации
+                </summary>
+                <div>
+                    <p dir="ltr">Пределы&nbsp;показателей&nbsp;ИМТ в возрасте старше 65 лет изменяются:</p>
+                    <p dir="ltr">Возраст 65 до 74:</p>
+                    <ul dir="ltr">
+                    <li>Недостаточный вес: ИМТ менее 22.&nbsp;</li>
+                    <li>Нормальный вес: ИМТ от 22 до 26,9.&nbsp;</li>
+                    <li>Избыточный вес: ИМТ от 27 до 29,9.&nbsp;</li>
+                    <li>Ожирение: ИМТ от 30 и выше.</li>
+                    </ul>
+                    <p dir="ltr">75 лет и старше:</p>
+                    <ul dir="ltr">
+                    <li>Недостаточный вес: ИМТ меньше или равен 23.&nbsp;</li>
+                    <li>Нормальный вес: ИМТ от 23.01 до 27.9.&nbsp;</li>
+                    <li>Избыточный вес: ИМТ от 28 до 29,9.&nbsp;</li>
+                    <li>Ожирение: ИМТ от 30 и выше.</li>
+                    </ul>
+                </div>
+            </details>
+
+
+        
+        </div>
+
+    </div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
