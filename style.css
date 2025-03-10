@@ -14,8 +14,8 @@ body {
 }
 
 textarea, input {
-
-    width: 320px;
+    max-width: 500px;
+    width: 100%;
     padding: 10px 15px;
     border-radius: 10px;
 }
@@ -39,6 +39,7 @@ button {
 
 }
 details{
+    max-width: 600px;
     padding: 15px 20px;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
